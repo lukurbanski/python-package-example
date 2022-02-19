@@ -9,7 +9,8 @@ setup(
     description='An example python package',
     long_description=open('README.txt').read(),
     install_requires=['numpy'],
-    url='https://github.com/BillMills/python-package-example',
-    author='Bill Mills',
+    url='https://github.com/lukurbanski/python-package-example',
+    author='Lukasz',
     author_email='myemail@example.com'
 )
+
