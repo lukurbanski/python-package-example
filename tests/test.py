@@ -1,4 +1,4 @@
-from myPackage import somePython
+from myPackage.jobs import myMainPackage
 
 def test_fahrToKelv():
     '''
@@ -6,4 +6,4 @@ def test_fahrToKelv():
     '''
 
     
-    assert somePython.fahrToKelv(32) == 273.15, 'incorrect freezing point!'
+    assert myMainPackage.fahrToKelv(32) == 273.15, 'incorrect freezing point!'
