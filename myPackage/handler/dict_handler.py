@@ -5,7 +5,7 @@ class dictHandler:
         menu = mydict['menu']
         self.items = menu['items']
         lstitems = list(filter(lambda c: c != None, self.items))
-        self._unpacking(lstitems)
+        self._unpacking(lstitems) #do the item class to cover Items as instance
     
     def _unpacking(self,lstitems):        
         for i,v in enumerate(lstitems): 

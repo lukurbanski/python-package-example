@@ -19,8 +19,16 @@ class myPackage:
             testdict = json.load(file)
             return testdict
 
+    @staticmethod
+    def matchfunction(value):
+        return {100: 1, 200: 2}.get(value,3)
+
+
+
 p = myPackage()
 p.launch("C:\\Repos\\python-package-example\\myPackage\\packageData\\sampleData.json")
+
+print(p.matchfunction(33))
 
 raise SystemExit
 
